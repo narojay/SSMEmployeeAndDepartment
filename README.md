@@ -7,20 +7,20 @@
 * 方法②USE 数据库名; TRUNCATE TABLE 表名;
 
 ## 数据库插入中文数据数据显示？？？
-* 解决办法:url后面加上这个 ?characterEncoding=utf-8
+* 解决办法:url后面加上这个 ?characterEncoding=utf-8.
 
 ## 路径问题 
-* 要先将webapp mark as resources(idea)
+* 要先将webapp mark as resources(idea).
 
 ## setAttribute报错
-* 可能是 jsp-api没加入maven
+* 可能是 jsp-api没加入maven.
 
 ## 写jquery调用方法的时候尽量先写分号要不然很容易忘，出错也很难查找。
 
 ## 数据校验很重
-* 前端校验 后端校验 数据库校验
-* jquery 前端校验。ajax用户名重复校验 后端校验(JRS303 )
+* 前端校验 后端校验 数据库校验.
+* jquery 前端校验。ajax用户名重复校验 后端校验(JRS303 ).
 
 ## 分页排序问题
-* 看看是不是 mapper.xml下 动态sql的 order by XX 没有执行  
+* 看看是不是 mapper.xml下 动态sql的 order by XX 没有执行.
 
