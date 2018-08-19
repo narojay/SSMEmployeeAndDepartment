@@ -396,7 +396,7 @@
         if(!validata_add_form()){
             return false;
         }
-        if($(this).attr("ajac-va")=="error"){
+        if($(this).attr("ajax-va")=="error"){
                 return false;
         }
 

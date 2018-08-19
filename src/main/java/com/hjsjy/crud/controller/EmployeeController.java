@@ -112,14 +112,14 @@ public class EmployeeController {
       public Msg checkuser(@RequestParam("empName") String empName){
         String regx="(^[a-zA-Z0-9_-]{6,16}$)|(^[\\u2E80-\\u9FFF]{2,5})";
         if(!empName.matches(regx)){
-            return Msg.fail().add("va_msg","用户名必须是6-16位的组合和字母的组合或者2-5位的中文 emloyee");
+            return Msg.fail().add("va_msg","用户名必须是6-16位的组合和字母的组合或者2-5位的中文");
         }
 //        数据库校验
          boolean b =  employeeService.checkUser(empName);
             if(b){
                  return Msg.success();
             }else {
-                return  Msg.fail().add("va_msg","用户名不可用email");
+                return  Msg.fail().add("va_msg","用户名不可用");
             }
 
       }
