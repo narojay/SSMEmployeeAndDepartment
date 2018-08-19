@@ -434,7 +434,7 @@
         // alert("edit");
     //    0.查出员工信息，显示员工信息
     //    1.查出部门信息，并显示部门列表
-
+//
         //查询员工信息，显示员工信息
         getEmp($(this).attr("edit-id"));
         getDepts("#dept_update_select");
