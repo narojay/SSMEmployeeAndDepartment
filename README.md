@@ -1,3 +1,6 @@
+## 新增sql数据库文件 
+com.hjsjy.crud.sql包中，需要的可以自己导入到数据库中
+-----
 # SSMEmployeeAndDepartMent 遇到的一些BUG解决办法和项目经验总结(都已经解决)
 ## spring单元测试
 * 真的是个坑 ,报错原因是因为spring版本的冲突,遇到错的兄弟可以看下自己的maven 目录下所有的 org.spring下的jar包是不是版本都一样，一定要一样，尤其时* * * spring-test.
