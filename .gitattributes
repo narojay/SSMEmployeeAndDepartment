@@ -1,1 +1,3 @@
 *.java linguist-language=java
+*.sql linguist-language=java
+*.xml  linguist-language=java
