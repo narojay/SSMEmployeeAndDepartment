@@ -5,8 +5,9 @@ com.hjsjy.crud.sql包中，需要的可以自己导入到数据库中
 ## spring单元测试
 > 报错原因是因为spring版本的冲突,遇到错的兄弟可以看下自己的maven 目录下所有的 org.spring下的jar包是不是版本都一样，一定要一样，尤其时*spring-test* >.
 
-## 数据库重新自增(两个解决方法)
+## 数据库重新自增
 > 方法①   USE 数据库名; DELETE FROM 表名 ALTER TABLE 表名 auto_increment = 1;
+> 
 > 方法②USE 数据库名; TRUNCATE TABLE 表名;
 
 ## 数据库插入中文数据数据显示
